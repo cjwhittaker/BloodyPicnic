@@ -72,11 +72,50 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="calculator.designer.vb">
+      <DependentUpon>calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="calculator.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="casualties.designer.vb">
+      <DependentUpon>casualties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="casualties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevents.vb" />
+    <Compile Include="cgeneral.vb" />
+    <Compile Include="close_combat.Designer.vb">
+      <DependentUpon>close_combat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="close_combat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cunit.vb" />
+    <Compile Include="event_manager.designer.vb">
+      <DependentUpon>event_manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="event_manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firing_1914.designer.vb">
+      <DependentUpon>Firing_1914.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Firing_1914.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="morale_test_2.designer.vb">
+      <DependentUpon>morale_test_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="morale_test_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movement.Designer.vb">
+      <DependentUpon>movement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="movement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,13 +133,79 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="planning.designer.vb">
+      <DependentUpon>planning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="planning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resultform.designer.vb">
+      <DependentUpon>resultform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="resultform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scenariodefaults.designer.vb">
+      <DependentUpon>scenariodefaults.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scenariodefaults.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="solo_settings.designer.vb">
+      <DependentUpon>solo_settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="solo_settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="calculator.resx">
+      <DependentUpon>calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="casualties.resx">
+      <DependentUpon>casualties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="close_combat.resx">
+      <DependentUpon>close_combat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="event_manager.resx">
+      <DependentUpon>event_manager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firing_1914.resx">
+      <DependentUpon>Firing_1914.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="morale_test_2.resx">
+      <DependentUpon>morale_test_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movement.resx">
+      <DependentUpon>movement.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="planning.resx">
+      <DependentUpon>planning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resultform.resx">
+      <DependentUpon>resultform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scenariodefaults.resx">
+      <DependentUpon>scenariodefaults.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="solo_settings.resx">
+      <DependentUpon>solo_settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
